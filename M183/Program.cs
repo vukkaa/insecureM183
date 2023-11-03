@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("SongContext");
 
 builder.Services.AddDbContext<NewsAppContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SongContext")));
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 // Add services to the container.
 

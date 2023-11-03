@@ -56,28 +56,16 @@
             <response code="400">Bad request</response>
             <response code="404">User not found</response>
         </member>
-        <member name="T:M183.Migrations.CreateDatabase">
+        <member name="T:M183.Migrations.createdatabase">
             <inheritdoc />
         </member>
-        <member name="M:M183.Migrations.CreateDatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:M183.Migrations.createdatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:M183.Migrations.CreateDatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:M183.Migrations.createdatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:M183.Migrations.CreateDatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="T:M183.Migrations.InitialData">
-            <inheritdoc />
-        </member>
-        <member name="M:M183.Migrations.InitialData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:M183.Migrations.InitialData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:M183.Migrations.InitialData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <member name="M:M183.Migrations.createdatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>
